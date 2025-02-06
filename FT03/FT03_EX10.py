@@ -1,11 +1,11 @@
+op = None
+num1 = None
+num2 = None
 print("Escolha a operaçao desejada:")
 print("1 - Soma")
 print("2 - Subtração")
 print("3 - Multiplicação")
 print("4 - Divisão")
-op = None
-num1 = None
-num2 = None
 while op not in [1, 2, 3, 4]:
     try:
         op = int(input("Insira a opção desejada: "))
